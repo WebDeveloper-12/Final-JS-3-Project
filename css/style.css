@@ -1,0 +1,195 @@
+  .items{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 100px;
+  }
+  
+  .item{
+    color: rgb(0, 0, 0) !important;
+    border-radius: 5px;
+  }
+  
+  .items:hover{
+    color: white !important;
+    transition-duration: 0.25s;
+    background-color: orange;
+  }
+
+  .navbar-light{
+    background-color: white !important;
+  }
+
+.section1{
+    height: 100vh;
+    background-image:url("IMAGES/about-1.png");
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.one{
+  z-index: 800;
+  position: absolute;
+}
+
+.img1{
+  height: 100vh;
+  width: 100%;
+}
+
+.butn:hover .fa-brands{
+  color: orange !important;
+  transition-duration: 0.5s;
+}
+
+.crd:hover{
+  background-color: orange !important;
+  transition-duration: 0.5s;
+  color: white !important;
+}
+
+.crd:hover #txtxt{
+  transition-duration: 0.5s;
+  color: white !important;
+}
+
+.imag1{
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.imgs2{
+  margin: 20px;
+  height: 200px;
+}
+
+.imgs2:hover{
+  margin: 20px;
+  height: 200px;
+}
+
+.nav-link{
+  background-color: white;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-link{
+  color: black !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+}
+
+.nav-link:hover{
+  transition-duration: 0.5s;
+  background-color: rgb(103, 168, 190) !important;
+  color: white !important;
+}
+
+.layer{
+  background-color: rgba(0, 0, 0, 0.584);
+  position: absolute;
+  top: 120%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.all:hover .layer{
+  top: 0;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.799);
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+  display: none;
+}
+
+.img3{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#btn{
+  margin-top: 80px;
+  margin-left: 10px;
+  right: 20px;
+  top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;Portfolio
+}
+
+.carousel-inner{
+  width: 150vh !important;
+}
+
+.layer{
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 120%;
+  right: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.layer2{
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 120%;
+  right: 0;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.layer3{
+  rotate: 90deg;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 120%;
+  right: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.all2:hover .layer2{
+  left: 40%;
+}
+
+.all:hover .layer2{
+  left: 40%;
+}
+
+
